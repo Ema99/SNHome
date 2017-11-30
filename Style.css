@@ -1,0 +1,43 @@
+html,body {
+	height:100%;
+	width:100%;
+	margin:0;
+	padding:0;
+	overflow:auto;
+	background-image:url("images/bg.png");
+	background-position:center;
+	background-repeat:no-repeat;
+}
+#btnlink:hover {
+	-ms-transform: scale(1.25, 1.25); /* IE 9 */
+	-webkit-transform: scale(1.25, 1.25); /* Safari */
+	transform: scale(1.25, 1.25);
+}
+filter:progid:DXImageTransform.Microsoft.gradient(startColorStr='#040429', EndColorStr='#257eb7');
+-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorStr='#040429', EndColorStr='#257eb7')";
+
+/*Navbar Logo*/
+.nav-logo{
+	padding-top:9px;
+	padding-right:5px;
+	height:40px;
+}
+
+/*Content*/
+.content{
+	margin-top:15%;
+}
+.text-sn{
+	font-size:25px;
+	color:white;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+.button-sn{
+	background-color:#06F;
+	opacity:0.5;
+	border-radius:10px;
+}
+.p-sn{
+	font-size:48px;
+	color:white;
+}
